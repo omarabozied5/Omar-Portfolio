@@ -84,7 +84,7 @@ export const Projects = () => {
         "Native iOS application with modern SwiftUI interface and comprehensive user management.",
       technologies: ["Swift", "SwiftUI", "MVVM", "Firebase"],
       type: "mobile",
-      imageUrl: "iosSwift.png",
+      imageUrl: "ios.png",
       features: [
         "Authentication and user profiles",
         "Multi-language support",
