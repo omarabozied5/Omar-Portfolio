@@ -92,7 +92,7 @@ export const Hero = () => {
               <Linkedin className="h-6 w-6" />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/omarabozied5/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-muted-foreground hover:text-primary hover:scale-110 transition-all duration-300"

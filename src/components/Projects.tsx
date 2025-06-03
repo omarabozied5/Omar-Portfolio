@@ -16,6 +16,37 @@ interface Project {
 export const Projects = () => {
   const projects: Project[] = [
     {
+      title: "E-Commerce Platform",
+      description:
+        "Scalable e-commerce platform with secure authentication and seamless API integration.",
+      technologies: ["React", "Strapi", "PostgreSQL", "Redux"],
+      type: "fullstack",
+      imageUrl: "/ecom.png",
+      features: [
+        "Secure authentication system",
+        "State management with Redux",
+        "Responsive UI design",
+        "Optimized shopping experience",
+        "Cross-device compatibility",
+      ],
+    },
+    {
+      title: "Goldady Platform",
+      description:
+        "Modern web application with elegant design and smooth user experience.",
+      technologies: ["React", "Tailwind", "TypeScript", "Redux Toolkit", "MUI"],
+      type: "web",
+      demoUrl: "https://goldady.netlify.app/",
+      imageUrl: "/goldady.png",
+      features: [
+        "Modern UI/UX design",
+        "Smooth animations",
+        "Mobile-first approach",
+        "Performance optimized",
+        "Cross-browser compatibility",
+      ],
+    },
+    {
       title: "Movie App",
       description:
         "Interactive movie discovery platform with advanced search and filtering capabilities.",
@@ -47,37 +78,7 @@ export const Projects = () => {
         "Responsive interface",
       ],
     },
-    {
-      title: "Goldady Platform",
-      description:
-        "Modern web application with elegant design and smooth user experience.",
-      technologies: ["React", "Tailwind", "TypeScript", "Redux Toolkit", "MUI"],
-      type: "web",
-      demoUrl: "https://goldady.netlify.app/",
-      imageUrl: "/goldady.png",
-      features: [
-        "Modern UI/UX design",
-        "Smooth animations",
-        "Mobile-first approach",
-        "Performance optimized",
-        "Cross-browser compatibility",
-      ],
-    },
-    {
-      title: "E-Commerce Platform",
-      description:
-        "Scalable e-commerce platform with secure authentication and seamless API integration.",
-      technologies: ["React", "Strapi", "PostgreSQL", "Redux"],
-      type: "fullstack",
-      imageUrl: "/ecom.png",
-      features: [
-        "Secure authentication system",
-        "State management with Redux",
-        "Responsive UI design",
-        "Optimized shopping experience",
-        "Cross-device compatibility",
-      ],
-    },
+
     {
       title: "Headway iOS App",
       description:
