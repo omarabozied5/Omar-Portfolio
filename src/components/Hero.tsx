@@ -101,7 +101,7 @@ export const Hero = () => {
             </a>
           </div>
 
-          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 opacity-0 animate-fadeInUp animate-delay-800">
+          <div className="absolute bottom-8 right-3 transform -translate-x-1/2 opacity-0 animate-fadeInUp animate-delay-800">
             <button
               onClick={() => scrollToSection("about")}
               className="animate-bounce hover:scale-110 transition-transform"
