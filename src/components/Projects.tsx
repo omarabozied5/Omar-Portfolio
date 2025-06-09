@@ -21,6 +21,7 @@ export const Projects = () => {
         "Scalable e-commerce platform with secure authentication and seamless API integration.",
       technologies: ["React", "Strapi", "PostgreSQL", "Redux"],
       type: "fullstack",
+      demoUrl: "https://oddies.netlify.app/",
       imageUrl: "/ecom.png",
       features: [
         "Secure authentication system",
