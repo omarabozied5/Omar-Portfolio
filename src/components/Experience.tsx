@@ -46,7 +46,7 @@ export const Experience = () => {
       title: "Frontend React Developer",
       company: "Jewel Hotels",
       period: "Oct 2022 – Dec 2023",
-      location: "Remote",
+      location: "Cairo, Egypt",
       technologies: ["React.js", "JavaScript", "CSS"],
       logo: "jew.png",
       description: [
